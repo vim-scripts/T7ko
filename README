@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1305
+
+These plugins were written by me during quite a long time.  I just wrote functions and commands for all those operations, that was often necessary for me to do and modified them when my necessities changed.  I'm not sure, that these will be helpful to anybody else except me, but I hope so.
+
+This plugins-set is multi-purpose one.  Among others tasks it can handle, there are:
+ - alignment text in a table-like columns;
+ - enabling diff on directories from inside Vim;
+ - some floating-point operations;
+ - improved vimsessions management;
+ - sorting lines and makes them unique (useful for those working under Windows).
+
+It also has one feature, which I think it is a quite good idea.  You can switch on and off the functionality of each component of this plugin-set at run-time, without restarting Vim.  This allows you not to pollute global Vim namespace with unnecessary functions and commands.
